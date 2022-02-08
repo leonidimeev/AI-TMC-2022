@@ -2,7 +2,7 @@
 
 This is a very simple web application that identify which idol you look like using AI
 
-![image](https://drive.google.com/uc?export=view&id=/1vM6p8vw86Nag1SDcE3RaL-eHku-Y8Z_v)
+![StackOverflow logo](https://drive.google.com/uc?export=view&id=/1vM6p8vw86Nag1SDcE3RaL-eHku-Y8Z_v)
 
 ## Build
 
