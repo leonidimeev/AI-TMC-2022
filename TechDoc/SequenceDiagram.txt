@@ -1,0 +1,27 @@
+title This is a title
+
+participant Client
+participant Landing
+participant Backend
+participant Defining module
+participant DB
+
+Client->Landing:Начало сессии
+
+Client<-Landing:Начальная страница
+Client->Landing:Нажатие на кнопку "Get started"
+Client<-Landing:Страница загрузки фотографии
+Client->Landing:Загрузка фотографии
+Landing->Backend:Создание задачи на обработку фото
+
+
+Backend->DB:Создание задачи
+Landing<-Backend:Возращение id задачи
+space
+Backend->Defining module:Запрос на определение по загруженной фотографии
+note right of Landing:Запрос статуса задачи
+Backend->DB:Сохранение результатов в задаче
+Landing->Backend:Успешный запрос статуса по задаче
+Backend->DB:Запрос данных по задаче
+Landing<-Backend:Возращение данных по задаче
+Client<-Landing:Страница результата
