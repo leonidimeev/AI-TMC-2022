@@ -5,10 +5,12 @@ This is a very simple web application that identify which idol you look like usi
 ![image](https://user-images.githubusercontent.com/45921749/152905626-2fb6883a-825f-49e8-9e77-342cd3887933.png)
 
 ## Process sequence
-![ProcessSequenceDiagram](https://user-images.githubusercontent.com/45921749/152921390-99834a47-0bb4-4e71-96e2-3aa31a1dadd1.PNG)
+![Untitled](https://user-images.githubusercontent.com/45921749/153976583-dde7c127-eb1f-4bd0-9e18-8446029c483d.png)
+
 
 ## Draft architecture
-![TMC2022 drawio](https://user-images.githubusercontent.com/45921749/152921464-93830134-407b-4303-8e4e-3a885a8354f9.png)
+![image](https://user-images.githubusercontent.com/45921749/153976601-6cc14b22-a574-434e-961a-8873f73c9626.png)
+
 
 ## Build
 
