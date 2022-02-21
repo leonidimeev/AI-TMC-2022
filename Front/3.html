@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TWICE"Pm17FanPage"</title>
+        <link rel="shortcut icon" href="./img/TwiceLogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/twice.css">
+        <link rel="stylesheet" href="./css/snow.css">
+        <script src="https://kit.fontawesome.com/e3e41ea48e.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+    <body onload="realtimeClock()">
+        <div id="Home">
+            <hr class="liniya" noshade color="pink">
+            <div style="text-align: center;">
+            <div class="chasi"><div id="Clock"></div></div>
+            </div>
+            <hr class="liniya" noshade color="pink">
+    		<div class="hwqe">
+                <h1 style="color: white">FINISH</h1>
+		      	<a id="returnbutton" href="index.html">
+                <div class="box3"><h2>MAIN</h2></div>
+                </a>
+            </div>
+        </div>>
+        <script src="./js/lazysizes.min.js" async></script>
+        <script src="./js/snow.js"></script>
+        <script src="./js/twice.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+        <script>
+            snow.main();
+
+            document.querySelector("main").appendChild(TwiceProfiles());
+    
+            // прыгание
+             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            });
+            });
+        });
+        </script>
+    </body>
+</html>
