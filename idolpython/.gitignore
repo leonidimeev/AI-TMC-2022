@@ -127,7 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-data/*
 research
 .idea/
 .vscode/
@@ -136,7 +135,6 @@ research
 ./env
 # ignore the secrets file
 config/secrets.yaml
-/data
 artifacts/extracted_features/embedding.pkl
 artifacts/pickle_format_data/img_PICKLE_file.pkl
 /new_dataset

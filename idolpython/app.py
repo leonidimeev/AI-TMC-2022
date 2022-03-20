@@ -96,7 +96,6 @@ def recommend(feature_list,features):
 
 
 # streamlit
-#st.title('Which Bollywood Celebrity You look like?')
 st.title('Which idol do you look like?')
 
 uploaded_image = st.file_uploader('Select a photo and upload')
@@ -111,6 +110,7 @@ if uploaded_image is not None:
         features = extract_features(os.path.join(uploadn_path,uploaded_image.name),model,detector)
         # recommend
         index_pos = recommend(feature_list,features)
+        #predicted_actor = " ".join(filenames[index_pos].split('\\')[1].split('_'))
         predicted_actor = " ".join(filenames[index_pos].split('\\')[1].split('_'))
         # display
         col1,col2 = st.columns(2)
