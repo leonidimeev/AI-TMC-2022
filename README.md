@@ -68,3 +68,15 @@ You should see when browsing to
 ### Run server
 
     docker-compose exec db psql --username=fastapi --dbname=fastapi_dev
+
+### STEPS to run idolpython
+
+    python -m venv venv
+    venv\scripts\activate.bat
+    python -m pip install pip setuptools
+    pip install --upgrade pip setuptools wheel
+    pip install -r requirements.txt
+    deactivate
+    python run.py
+    venv\scripts\activate.bat
+    streamlit run app.py
